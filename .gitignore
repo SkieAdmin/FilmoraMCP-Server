@@ -6,4 +6,3 @@ captures/
 logs/
 PAUSE
 config.local.json
-*.md
