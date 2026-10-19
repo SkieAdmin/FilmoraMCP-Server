@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "filmora-mcp"
+version = "0.2.0"
+description = "Windows MCP automation for Wondershare Filmora X/10 and newer, with runtime compatibility profiles"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["mcp==1.30.0", "Pillow==13.0.0", "pywinauto==0.6.9", "psutil==7.2.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "pytest-asyncio>=1,<2"]
+
+[project.scripts]
+filmora-mcp = "filmora_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

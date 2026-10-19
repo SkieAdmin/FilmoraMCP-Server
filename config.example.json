@@ -1,0 +1,10 @@
+{
+  "executable": "",
+  "filmora_major_version": null,
+  "observation_ttl_seconds": 60,
+  "max_text_length": 20000,
+  "ui_target_overrides": {},
+  "shortcut_overrides": {
+    "split": "ctrl+b"
+  }
+}

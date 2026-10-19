@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "filmora": {
+      "command": "C:\\Users\\SkieHackerYT\\Documents\\Gitlab\\FilmoraMCP-Server\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "filmora_mcp.server"
+      ]
+    }
+  }
+}
